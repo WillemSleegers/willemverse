@@ -23,4 +23,4 @@ usethis::use_test()
 
 # Add dependency ----------------------------------------------------------
 
-usethis::use_package("lavaan", "Suggests")
+usethis::use_package("ggplot2", "Suggests")
