@@ -73,13 +73,6 @@ This stat plots the distribution of a variable for each group. It is
 particularly suitable for visualizing distributions of categorical data such
 as Likert-scale data.
 }
-\details{
-# Aesthetics
-
-  `stat_vhistogram` understands the following (required) aesthetics:
-  * x
-  * y
-}
 \seealso{
 `hist()`
 }
