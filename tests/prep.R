@@ -5,6 +5,8 @@
 library(tidyverse)
 library(viridis)
 library(scales)
+library(see)
+library(willemverse)
 
 # Data --------------------------------------------------------------------
 
@@ -26,7 +28,8 @@ ggplot(df, aes(x = condition, y = outcome)) +
   stat_vhistogram(alpha = .5)
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(alpha = .5, color = "black")
+  stat_vhistogram(alpha = .5, color = "black") +
+  scale_y_continuous(breaks = 1:7)
 
 ggplot(df, aes(x = condition, y = outcome)) +
   stat_vhistogram(alpha = .5, color = "black", center = TRUE) +
@@ -35,11 +38,18 @@ ggplot(df, aes(x = condition, y = outcome)) +
 ggplot(df, aes(x = condition, y = outcome)) +
   stat_vhistogram(center = TRUE, alpha = .25) +
   scale_y_continuous(breaks = 1:7) +
-  stat_summary(geom = "errorbar", width = .1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", width = .1) +
   stat_summary(geom = "point", fun = "mean") +
+  stat_summary(geom = "line", fun = "mean", linetype = "dashed", group = 1) +
   theme_minimal()
 
 # position_likert() -------------------------------------------------------
+
+count(df, condition, outcome)
+
+ggplot(df, aes(x = condition, fill = factor(outcome))) +
+  geom_bar(position = "likert") +
+  coord_flip()
 
 ggplot(df, aes(x = condition, fill = factor(outcome))) +
   geom_bar(position = "likert") +
@@ -56,5 +66,6 @@ ggplot(counts, aes(x = condition, y = pct, fill = factor(outcome))) +
     aes(label = percent(pct, accuracy = 1)),
     position = likert(nudge_y = 0.3)
   ) +
+  scale_y_continuous(labels = percent) +
   scale_fill_viridis(discrete = TRUE) +
   coord_flip()
