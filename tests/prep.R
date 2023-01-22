@@ -16,38 +16,31 @@ df <- tibble(
   outcome = sample(1:7, 50, replace = TRUE)
 )
 
-# data$outcome[1] <- NA
+df$outcome_na <- df$outcome
+df$outcome_na[1] <- NA
 x <- filter(df, condition == "control")$outcome
 
-# stat_vhistogram() -------------------------------------------------------
+# geom_vhistogram() --------------------------------------------------------
 
-ggplot(df, aes(x = outcome)) +
-  geom_histogram()
-
-ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(geom = "polygon")
+ggplot(df, aes(x = condition)) +
+  geom_vhistogram()
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(fill = "grey35")
+  geom_vhistogram(bins = 7)
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(alpha = .5)
+  geom_vhistogram(bins = 7, center = TRUE)
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(alpha = .5, color = "black") +
-  scale_y_continuous(breaks = 1:7)
-
-ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(alpha = .5, color = "black", center = TRUE) +
-  scale_y_continuous(breaks = 1:7)
-
-ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram(center = TRUE, alpha = .25) +
+  geom_vhistogram(center = TRUE, alpha = .25) +
   scale_y_continuous(breaks = 1:7) +
   stat_summary(fun.data = "mean_cl_boot", geom = "errorbar", width = .1) +
   stat_summary(geom = "point", fun = "mean") +
   stat_summary(geom = "line", fun = "mean", linetype = "dashed", group = 1) +
   theme_minimal()
+
+ggplot(df, aes(x = condition, y = outcome_na)) +
+  geom_vhistogram(bins = 7, na.rm = TRUE)
 
 # position_likert() -------------------------------------------------------
 
