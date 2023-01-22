@@ -6,7 +6,6 @@ library(tidyverse)
 library(viridis)
 library(scales)
 library(see)
-library(willemverse)
 
 # Data --------------------------------------------------------------------
 
@@ -18,11 +17,18 @@ df <- tibble(
 )
 
 # data$outcome[1] <- NA
+x <- filter(df, condition == "control")$outcome
 
 # stat_vhistogram() -------------------------------------------------------
 
+ggplot(df, aes(x = outcome)) +
+  geom_histogram()
+
 ggplot(df, aes(x = condition, y = outcome)) +
-  stat_vhistogram()
+  stat_vhistogram(geom = "polygon")
+
+ggplot(df, aes(x = condition, y = outcome)) +
+  stat_vhistogram(fill = "grey35")
 
 ggplot(df, aes(x = condition, y = outcome)) +
   stat_vhistogram(alpha = .5)
