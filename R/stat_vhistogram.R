@@ -69,6 +69,7 @@ stat_vhistogram <- function(mapping = NULL, data = NULL, geom = "polygon",
 StatVhistogram <- ggplot2::ggproto(
   "StatVHistogram",
   ggplot2::Stat,
+  required_aes = c("x", "y"),
   compute_group = function(data,
                            scales,
                            params,
@@ -82,14 +83,99 @@ StatVhistogram <- ggplot2::ggproto(
     coords$x <- coords$x + data$x[1]
 
     coords
-  },
-  required_aes = c("x", "y")
+  }
 )
 
 vhist_coords <- function(x,
                          bins = NULL,
                          binwidth = NULL,
                          center = FALSE) {
+  # Determine bins and binwidth
+  if (!is.null(bins) && !is.null(binwidth)) {
+    warning("Provided both bins and binwidth; using binwidth.")
+  }
+
+  if (is.null(bins) && is.null(binwidth)) {
+    # Sturges method as the default
+    breaks <- pretty(range(x), n = nclass.Sturges(x), min.n = 1)
+  }
+
+  if (!is.null(binwidth)) {
+    bins <- round(max(x) / binwidth)
+  }
+
+  if (!is.null(bins)) {
+    # Number of bins depends on whether the bars are centered or not
+    if (!is.null(center)) {
+      if (!center) bins <- bins + 1
+    }
+
+    breaks <- seq(from = min(x), to = max(x), length.out = bins)
+  }
+
+  binwidth <- diff(breaks[1:2])
+
+  hist <- hist(x, plot = FALSE, breaks = breaks)
+
+  x <- c()
+  y <- c()
+
+  if (center) {
+    for (i in seq_along(hist$mids)) {
+      x <- c(x, 0, hist$density[i], hist$density[i], 0)
+      y <- c(
+        y,
+        hist$mids[i] - binwidth,
+        hist$mids[i] - binwidth,
+        hist$mids[i],
+        hist$mids[i]
+      )
+    }
+
+    # Add last bar
+    x <- c(x, 0, hist$density[i], hist$density[i], 0)
+    y <- c(
+      y,
+      hist$mids[i],
+      hist$mids[i],
+      hist$mids[i] + binwidth,
+      hist$mids[i] + binwidth
+    )
+
+    # Connect last point to first point
+    x <- c(x, 0)
+    y <- c(y, hist$mids[1] - binwidth)
+  } else {
+    for (i in seq_along(hist$breaks)) {
+      if (i == 1 || i == length(hist$breaks)) {
+        y <- c(y, hist$breaks[i], hist$breaks[i])
+
+        if (i == 1) {
+          x <- c(x, 0, hist$density[i])
+        } else {
+          x <- c(x, hist$density[i - 1], 0)
+
+          # Connect last point to first point
+          x <- c(x, 0)
+          y <- c(y, hist$breaks[1])
+        }
+      } else {
+        x <- c(x, hist$density[i - 1], 0, hist$density[i])
+        y <- c(y, hist$breaks[i], hist$breaks[i], hist$breaks[i])
+      }
+    }
+  }
+
+  tibble::tibble(
+    x = x,
+    y = y
+  )
+}
+
+vhist_coords2 <- function(x,
+                          bins = NULL,
+                          binwidth = NULL,
+                          center = FALSE) {
   # Determine bins and binwidth
   if (!is.null(bins) && !is.null(binwidth)) {
     warning("Provided both bins and binwidth; using binwidth.")
