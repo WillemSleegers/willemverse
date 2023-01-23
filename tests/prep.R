@@ -22,14 +22,14 @@ x <- filter(df, condition == "control")$outcome
 
 # geom_vhistogram() --------------------------------------------------------
 
-ggplot(df, aes(x = condition)) +
+ggplot(df, aes(x = condition, y = outcome)) +
   geom_vhistogram()
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  geom_vhistogram(bins = 7)
+  geom_vhistogram(bins = 7, center = TRUE)
 
 ggplot(df, aes(x = condition, y = outcome)) +
-  geom_vhistogram(bins = 7, center = TRUE)
+  geom_vhistogram(bins = 7, center = TRUE, scale = .75)
 
 ggplot(df, aes(x = condition, y = outcome)) +
   geom_vhistogram(center = TRUE, alpha = .25) +

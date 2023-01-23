@@ -14,7 +14,7 @@ useful if you're rotating both the plot and legend.}
 to or on top of the bars rather than inside them.}
 }
 \description{
-`position_likert()` positions bars to improve the legibility of Likert-type
+\code{position_likert()} positions bars to improve the legibility of Likert-type
 data. This means it will stack bars on top of each other but center them at
 the mid-point. The positioning works for both bar geoms and text labels.
 }
