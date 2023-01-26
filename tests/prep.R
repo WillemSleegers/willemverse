@@ -44,6 +44,12 @@ ggplot(df, aes(x = condition, y = outcome_na)) +
 
 # position_likert() -------------------------------------------------------
 
+df <- read_csv("./inst/test.csv")
+
+ggplot(df, aes(x = item, fill = factor(response))) +
+  geom_bar(position = "likert") +
+  coord_flip()
+
 count(df, condition, outcome)
 
 ggplot(df, aes(x = condition, fill = factor(outcome))) +
@@ -63,7 +69,7 @@ ggplot(counts, aes(x = condition, y = pct, fill = factor(outcome))) +
   geom_col(position = "likert", width = .5) +
   geom_text(
     aes(label = percent(pct, accuracy = 1)),
-    position = likert(nudge_y = 0.3)
+    position = "likert"
   ) +
   scale_y_continuous(labels = percent) +
   scale_fill_viridis(discrete = TRUE) +

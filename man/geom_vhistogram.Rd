@@ -93,9 +93,5 @@ vertical histograms using \code{\link[=stat_vbin]{stat_vbin()}}. It is particula
 visualizing distributions of categorical data such as Likert-scale data.
 }
 \seealso{
-\code{\link[=stat_count]{stat_count()}}, which counts the number of cases at each x
-position, without binning. It is suitable for both discrete and continuous
-x data, whereas \code{stat_bin()} is suitable only for continuous x data.
-
 \code{\link[=hist]{hist()}} and \code{\link[ggplot2:geom_histogram]{ggplot2::geom_histogram()}}
 }

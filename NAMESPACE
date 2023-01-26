@@ -2,5 +2,5 @@
 
 export(StatVbin)
 export(geom_vhistogram)
-export(likert)
+export(position_likert)
 export(stat_vbin)
