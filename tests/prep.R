@@ -3,9 +3,8 @@
 
 # Load packages
 library(tidyverse)
-library(viridis)
+library(scico)
 library(scales)
-library(see)
 
 # Data --------------------------------------------------------------------
 
@@ -73,4 +72,8 @@ props <- df %>%
 
 ggplot(props, aes(x = item, y = pct, fill = factor(response))) +
   geom_col(position = "likert") +
+  geom_text(
+    aes(label = percent(pct, accuracy = 1)),
+    position = position_likert(nudge = 0.5)
+  ) +
   coord_flip()

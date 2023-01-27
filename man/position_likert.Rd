@@ -4,7 +4,7 @@
 \alias{position_likert}
 \title{Position Likert-type data}
 \usage{
-position_likert()
+position_likert(nudge = 0)
 }
 \description{
 \code{position_likert()} positions bars to improve the legibility of Likert-type
