@@ -71,9 +71,8 @@ props <- df %>%
   mutate(pct = n / sum(n))
 
 ggplot(props, aes(x = item, y = pct, fill = factor(response))) +
-  geom_col(position = "likert") +
+  geom_col(position = "likert", width = .5) +
   geom_text(
     aes(label = percent(pct, accuracy = 1)),
-    position = position_likert(nudge = 0.5)
-  ) +
-  coord_flip()
+    position = "likert"
+  )
