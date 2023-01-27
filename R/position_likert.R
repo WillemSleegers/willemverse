@@ -10,6 +10,7 @@ position_likert <- function() {
 }
 
 PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
+  required_aes = c("x", "y", "fill"),
   setup_params = function(self, data) {
     data
   },
@@ -17,43 +18,36 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
     data
   },
   compute_panel = function(data, params, scales) {
-    print(as_tibble(data))
-    print(levels(data$fill))
-    ymin <- c()
-    ymax <- c()
-    y_label <- c()
+    levels <- sort(unique(data$fill), na.last = TRUE)
+    len <- length(levels)
+    even <- len %% 2 == 0
+    mid <- ceiling(len / 2)
 
-    for (group in unique(data$x)) {
-      y <- data$y[data$x == group]
-      len <- length(y)
+    y_min <- c()
+    y_max <- c()
 
-      if (len %% 2 == 0) {
-        mid <- len / 2
-        y_bottom <- c(y[1:mid], 0)
-        y_top <- y[(mid + 1):len]
-      } else {
-        mid <- ceiling(len / 2)
-        y_bottom <- c(y[1:(mid - 1)], y[mid] / 2)
-        y_top <- c(y[mid] / 2, y[(mid + 1):len])
+    for (x in unique(data$x)) {
+      y <- data$y[data$x == x]
+      fill <- data$fill[data$x == x]
+
+      y_bottom <- y[as.numeric(fill) <= mid]
+      y_top <- y[as.numeric(fill) > mid]
+
+      y_min_bottom <- rev(cumsum(rev(y_bottom))) * -1
+      y_min_top <- cumsum(c(0, y_top[-length(y_top)]))
+
+      if (!even & mid %in% fill) {
+        y_mid <- y[fill == mid]
+        y_min_bottom <- y_min_bottom + y_mid / 2
+        y_min_top <- y_min_top + y_mid / 2
       }
 
-      y <- c(rev(cumsum(rev(y_bottom))) * -1, cumsum(y_top))
-      ymin <- c(ymin, y[-length(y)])
-      ymax <- c(ymax, y[-1])
-
-      if ("label" %in% names(data)) {
-        y_label <- c(y_label, y[-length(y)] + diff(y) / 2)
-      }
+      y_min <- c(y_min, c(y_min_bottom, y_min_top))
+      y_max <- c(y_max, c(y_min_bottom, y_min_top) + y)
     }
 
-    if ("label" %in% names(data)) {
-      data$y <- y_label
-    } else {
-      data$ymin <- ymin
-      data$ymax <- ymax
-    }
-
-    print(data)
+    data$ymin <- y_min
+    data$ymax <- y_max
 
     return(data)
   }

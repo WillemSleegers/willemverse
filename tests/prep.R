@@ -44,33 +44,33 @@ ggplot(df, aes(x = condition, y = outcome_na)) +
 
 # position_likert() -------------------------------------------------------
 
-df <- read_csv("./inst/test.csv")
+set.seed(1)
+
+n <- 50
+n_items <- 5
+n_options <- 5
+
+df <- tibble(
+  item = sample(str_c("item_", 1:n_items), n, replace = TRUE),
+  response = sample(1:n_options, n, replace = TRUE)
+)
+
+ggplot(df, aes(x = item, fill = factor(response))) +
+  geom_bar(position = "likert")
 
 ggplot(df, aes(x = item, fill = factor(response))) +
   geom_bar(position = "likert") +
   coord_flip()
 
-count(df, condition, outcome)
-
-ggplot(df, aes(x = condition, fill = factor(outcome))) +
+ggplot(df, aes(x = reorder(item, response), fill = factor(response))) +
   geom_bar(position = "likert") +
   coord_flip()
 
-ggplot(df, aes(x = condition, fill = factor(outcome))) +
-  geom_bar(position = "likert") +
-  scale_fill_viridis(discrete = TRUE) +
-  coord_flip()
-
-counts <- count(df, condition, outcome) %>%
-  group_by(condition) %>%
+props <- df %>%
+  count(item, response) %>%
+  group_by(item) %>%
   mutate(pct = n / sum(n))
 
-ggplot(counts, aes(x = condition, y = pct, fill = factor(outcome))) +
-  geom_col(position = "likert", width = .5) +
-  geom_text(
-    aes(label = percent(pct, accuracy = 1)),
-    position = "likert"
-  ) +
-  scale_y_continuous(labels = percent) +
-  scale_fill_viridis(discrete = TRUE) +
+ggplot(props, aes(x = item, y = pct, fill = factor(response))) +
+  geom_col(position = "likert") +
   coord_flip()
