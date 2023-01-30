@@ -25,7 +25,7 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
     return(data)
   },
   compute_panel = function(data, params, scales) {
-    levels <- sort(unique(data$fill), na.last = TRUE)
+    levels <- levels(data$fill)
     len <- length(levels)
     even <- len %% 2 == 0
     mid <- ceiling(len / 2)
@@ -44,8 +44,8 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
       y_min_bottom <- rev(cumsum(rev(y_bottom))) * -1
       y_min_top <- cumsum(c(0, y_top[-length(y_top)]))
 
-      if (!even & mid %in% fill) {
-        y_mid <- y[fill == mid]
+      if (!even & mid %in% as.numeric(fill)) {
+        y_mid <- y[as.numeric(fill) == mid]
         y_min_bottom <- y_min_bottom + y_mid / 2
         y_min_top <- y_min_top + y_mid / 2
       }

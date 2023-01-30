@@ -47,14 +47,22 @@ set.seed(1)
 
 n <- 50
 n_items <- 5
-n_options <- 5
+levels <- c(
+  "Strongly disagree", "Disgree", "Neutral", "Agree", "Strongly agree"
+)
 
 df <- tibble(
   item = sample(str_c("item_", 1:n_items), n, replace = TRUE),
-  response = sample(1:n_options, n, replace = TRUE)
-)
+  response = sample(levels, n, replace = TRUE)
+) %>%
+  mutate(
+    response = factor(response, levels = levels)
+  )
 
-ggplot(df, aes(x = item, fill = factor(response))) +
+ggplot(df, aes(x = item, fill = response)) +
+  geom_bar()
+
+ggplot(df, aes(x = item, fill = response)) +
   geom_bar(position = "likert")
 
 ggplot(df, aes(x = item, fill = factor(response))) +
