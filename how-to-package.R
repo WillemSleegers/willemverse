@@ -1,4 +1,3 @@
-
 # Update ------------------------------------------------------------------
 
 # Update documentation
@@ -23,4 +22,4 @@ usethis::use_test()
 
 # Add dependency ----------------------------------------------------------
 
-usethis::use_package("ggplot2", "Suggests")
+usethis::use_package("MetBrewer", "Suggests")

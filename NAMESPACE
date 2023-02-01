@@ -2,6 +2,7 @@
 
 export(PositionLikert)
 export(StatVbin)
+export(brew_colors)
 export(geom_vhistogram)
 export(position_likert)
 export(stat_vbin)

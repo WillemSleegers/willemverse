@@ -13,5 +13,6 @@ RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Suggests: 
     ggplot2,
+    MetBrewer,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
