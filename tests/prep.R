@@ -6,6 +6,10 @@ library(tidyverse)
 library(scico)
 library(scales)
 
+# brew_colors() -----------------------------------------------------------
+
+brew_colors(n = 2)
+
 # Data --------------------------------------------------------------------
 
 set.seed(1)
