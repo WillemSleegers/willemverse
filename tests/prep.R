@@ -15,8 +15,8 @@ brew_colors(n = 2)
 set.seed(1)
 
 df <- tibble(
-  condition = sample(c("control", "treatment"), 50, replace = TRUE),
-  outcome = sample(1:7, 50, replace = TRUE)
+  condition = sample(c("control", "treatment"), 100, replace = TRUE),
+  outcome = sample(1:7, 100, replace = TRUE)
 )
 
 df$outcome_na <- df$outcome
