@@ -14,11 +14,11 @@
 #'
 #' @export
 brew_colors <- function(
-    palette = NULL,
     n = 5,
     discrete = FALSE,
     direction = 1,
-    begin = 0, end = 1) {
+    begin = 0, end = 1,
+    palette = NULL) {
   if (is.null(palette)) {
     requireNamespace("MetBrewer", quietly = TRUE)
     palette <- MetBrewer::met.brewer("Hiroshige", n = 10)
