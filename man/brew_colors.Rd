@@ -5,18 +5,15 @@
 \title{Brew colors}
 \usage{
 brew_colors(
-  palette = NULL,
   n = 5,
   discrete = FALSE,
   direction = 1,
   begin = 0,
-  end = 1
+  end = 1,
+  palette = NULL
 )
 }
 \arguments{
-\item{palette}{A vector of color values. By default it will use the Hiroshige
-palette from the MetBrewer package.}
-
 \item{n}{The number of colors to generate from the palette.}
 
 \item{discrete}{Whether to generate a discrete palette. The default is FALSE,
@@ -24,6 +21,9 @@ which will generate a continuous palette.}
 
 \item{direction}{Either 1 or -1. If -1 the palette will be reversed before
 generating the colors.}
+
+\item{palette}{A vector of color values. By default it will use the Hiroshige
+palette from the MetBrewer package.}
 
 \item{`begin, }{end` The interval within the palette to sample colours from.
 Defaults to 0 and 1 respectively.}
