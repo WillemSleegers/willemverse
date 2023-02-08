@@ -1,4 +1,3 @@
-
 # Setup -------------------------------------------------------------------
 
 # Load packages
@@ -69,11 +68,11 @@ ggplot(df, aes(x = item, fill = response)) +
 ggplot(df, aes(x = item, fill = response)) +
   geom_bar(position = "likert")
 
-ggplot(df, aes(x = item, fill = factor(response))) +
+ggplot(df, aes(x = item, fill = response)) +
   geom_bar(position = "likert") +
   coord_flip()
 
-ggplot(df, aes(x = reorder(item, response), fill = factor(response))) +
+ggplot(df, aes(x = reorder(item, as.numeric(response)), fill = response)) +
   geom_bar(position = "likert") +
   coord_flip()
 
@@ -87,4 +86,5 @@ ggplot(props, aes(x = item, y = pct, fill = factor(response))) +
   geom_text(
     aes(label = percent(pct, accuracy = 1)),
     position = "likert"
-  )
+  ) +
+  coord_flip()

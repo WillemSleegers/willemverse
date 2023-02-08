@@ -21,6 +21,7 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
   },
   setup_data = function(self, data, params) {
     data$nudge <- self$nudge
+    data <- subset(data, !is.na(fill))
 
     return(data)
   },
@@ -30,43 +31,40 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
     even <- len %% 2 == 0
     mid <- ceiling(len / 2)
 
-    y_min <- c()
-    y_max <- c()
-    y_label <- c()
-
     for (x in unique(data$x)) {
       y <- data$y[data$x == x]
       fill <- data$fill[data$x == x]
 
-      y_bottom <- y[as.numeric(fill) <= mid]
-      y_top <- y[as.numeric(fill) > mid]
+      y_bottom <- y[as.numeric(fill) < mid]
 
-      y_min_bottom <- rev(cumsum(rev(y_bottom))) * -1
-      y_min_top <- cumsum(c(0, y_top[-length(y_top)]))
+      # If there are no responses in the bottom half, set the nudge to 0
+      if (length(y_bottom) == 0) {
+        nudge <- 0
+      } else {
+        nudge <- sum(y_bottom)
+      }
 
+      # Add half of the middle category to the nudge, if there is one
       if (!even & mid %in% as.numeric(fill)) {
         y_mid <- y[as.numeric(fill) == mid]
-        y_min_bottom <- y_min_bottom + y_mid / 2
-        y_min_top <- y_min_top + y_mid / 2
+        nudge <- nudge + y_mid / 2
       }
-
-      y_min_new <- c(y_min_bottom, y_min_top)
-      y_max_new <- c(y_min_bottom, y_min_top) + y
-
-      y_min <- c(y_min, y_min_new)
-      y_max <- c(y_max, y_max_new)
 
       if ("label" %in% names(data)) {
-        y_label_new <- y_min_new + diff(c(y_min_new[1], y_max_new)) / 2
-        y_label <- c(y_label, y_label_new)
+        data$y[data$x == x] <- (cumsum(c(0, y[-length(y)])) - nudge) + (y / 2)
+      } else {
+        ymin <- data$ymin[data$x == x]
+        ymax <- data$ymax[data$x == x]
+
+        ymin <- c(0, cumsum(ymax)[-length(ymax)])
+        ymax <- cumsum(ymax)
+
+        ymin <- ymin - nudge
+        ymax <- ymax - nudge
+
+        data$ymin[data$x == x] <- ymin
+        data$ymax[data$x == x] <- ymax
       }
-    }
-
-    data$ymin <- y_min
-    data$ymax <- y_max
-
-    if ("label" %in% names(data)) {
-      data$y <- y_label
     }
 
     data$x <- data$x + data$nudge
