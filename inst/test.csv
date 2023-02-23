@@ -1,430 +1,82 @@
-item,response,label,label_short
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,3,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,2,RP remote environment is diverse.,...diverse.
-rp_env_respectful,4,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,5,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,NA,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,NA,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,NA,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,2,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,NA,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,3,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,4,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,3,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,4,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,3,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,4,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,1,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,1,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,3,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,3,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,NA,RP remote environment is respectful.,...respectful.
-rp_env_collegial,NA,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,NA,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,NA,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,NA,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,4,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,2,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,4,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,2,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,5,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,NA,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,4,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,2,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,NA,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,4,RP remote environment is respectful.,...respectful.
-rp_env_collegial,3,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,1,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,NA,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,4,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,2,RP remote environment is diverse.,...diverse.
-rp_env_respectful,4,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,1,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,2,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,3,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,3,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,4,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,1,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,NA,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,4,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,NA,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,NA,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,4,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,NA,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,5,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,4,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,4,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,4,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,3,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,2,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,4,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,4,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,4,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,2,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,1,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,4,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,3,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,3,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,4,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,4,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,3,RP remote environment is non-elitist.,...non-elitist.
-rp_env_friendly,5,RP remote environment is friendly.,...friendly.
-rp_env_nonracist,5,RP remote environment is non-racist.,...non-racist.
-rp_env_diverse,3,RP remote environment is diverse.,...diverse.
-rp_env_respectful,5,RP remote environment is respectful.,...respectful.
-rp_env_collegial,5,RP remote environment is collegial.,...collegial.
-rp_env_nonsexist,5,RP remote environment is non-sexist.,...non-sexist.
-rp_env_collaborative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_cooperative,5,RP remote environment is collaborative.,...collaborative.
-rp_env_nonhomophobic,5,RP remote environment is nonhomophobic.,...nonhomophobic.
-rp_env_supportive,5,RP remote environment is supportive.,...supportive.
-rp_env_nonageist,5,RP remote environment is non-ageist.,...non-ageist.
-rp_env_welcoming,5,RP remote environment is welcoming.,...welcoming.
-rp_env_nonelitist,4,RP remote environment is non-elitist.,...non-elitist.
+id,timestamp,rp_env_friendly,rp_env_nonracist,rp_env_diverse,rp_env_respectful,rp_env_collegial,rp_env_nonsexist,rp_env_collaborative,rp_env_cooperative,rp_env_nonhomophobic,rp_env_supportive,rp_env_nonageist,rp_env_welcoming,rp_env_nonelitist,rp_lead_committed_diversity,rp_lead_resources_support,rp_lead_meet_needs_disabilities,rp_lead_fair,rp_lead_workplace_be_themselves,rp_hiring_involvement,rp_hiring_diverse_pool,rp_hiring_first_interaction,rp_career_encourage_diverse,rp_career_fair_promotion,rp_career_dev_for_all,rp_policy_jeid,rp_policy_aware_procedure,rp_policy_appropriate_procedure,rp_inclusion_employee_interaction,rp_inclusion_age,rp_inclusion_jokes_slurs,rp_inclusion_open_expression,rp_manager_support_jeid,rp_manager_handles_jeid_issues,rp_training_jeid_good,rp_training_interest,rp_vbo_different_backgrounds,rp_vbo_diversity_improves_performance,rp_vbo_feel_belonging,rp_vbo_feel_supported,rp_vbo_equitable_workload,rp_vbo_opportunity_contribute,rp_vbo_comfortable_talking_about_issues,rp_vbo_recommend_rp,rp_vbo_rp_inspires_me,rp_vbo_working_at_rp_in_a_year,jeid_goals_open,jeid_interest_joining,jeid_previous_experiences_open,dem_rp_tenure,dem_age,dem_gender_identity,dem_marital_status,dem_region_born,dem_immigrant,dem_english_first,dem_education,dem_parent_highest_education,dem_other_parent_education,dem_income,dem_sexual_identity,dem_disabled_neurodivergent,dem_politics,dem_religion,dem_veteran,dem_parent_caretaker,dem_role_at_rp,dem_race_ethnic_open,dem_race_ethnic_categorical,dem_race_ethnic_binary,disclosure,rp_additional_feedback_open,rp_survey_improvements_open,jeid_goals_hiring_tag,jeid_goals_inclusivity_tag,jeid_goals_training_tag,jeid_goals_accessibility_tag,jeid_goals_onboarding_tag,jeid_experiences_pos_tag,jeid_experiences_neg_tag,rp_feedback_pos_tag,rp_feedback_neg_tag
+1,08/15/22 09:17 AM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Agree,Agree,Agree,Agree,Strongly agree,Agree,No,Disagree,Agree,Agree,NA,Agree,Agree,Strongly agree,Agree,Agree,NA,Strongly agree,Agree,Strongly agree,Agree,Neutral,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Agree,NA,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,"I like the committee's principles currently listed on the committee card in Guru. In general think the main role/focus of the committee should be to ensure everyone at RP is aware of the committee, feels comfortable interacting with the committee (e.g. to report issues but also just to learn / access JEID resources) and that everyone feels that RP is constantly progressing in the JEID space.
+Some topics I'd like to see the committee work on:
+- Make reading/being made aware of the JEID committee part of onboarding (e.g. a process for new employees to disclose information they want to) or pointing new employees to important resources around how to discuss JEID 
+- I'd love to see more resources about disability, e.g. language + how to talk about disability,  hidden/invisible/dynamic disabilities, making content accessible etc.
+",I'm interested in both/either joining as a committee member or subcommittee member,"I don't think any organization I have been involved with had JEID initiatives, mostly they had one or two contactable officers",Less than one year,26 to 30,"Cisgender, Female",Committed relationship / domestic partnership (unmarried),Asia,No,Yes,Completed a Masters degree,Graduated from high school,Graduated from high school,Middle income,Bisexual,"A mobility impairment (e.g., amputation, arthritis, cerebral palsy, fibromyalgia, paralysis), A long-term mental illness (e.g., anxiety, depression, OCD, BPD), A long-term physical illness (e.g., epilepsy, cystic fibrosis)",Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Senior Researcher / Manager (6-7),White,White,No,Yes,I wasn't made aware of how to disclose information about myself (e.g. disability) during onboarding or request accomodations if I needed them – I felt comfortable enough to share this information with my manager pretty early in my employment but I worry that that wouldn't be the case for everyone,I'm really happy RP have a JEID committee :),FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE
+2,08/15/22 09:31 AM,Agree,NA,Neutral,Strongly agree,Strongly agree,Agree,Agree,Agree,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Yes, once",Agree,Agree,NA,NA,Agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Neutral,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Neutral,Strongly agree,Agree,Agree,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Include initiatives aimed at accessibility (for employees and for our research products),"No, I am uninterested in joining (or ineligible to join) for the foreseeable future","Previously, I've experienced DEI workshops that were not well vetted and ended up actually upholding some of the oppressive stereotypes that they intended to break down. Careful vetting of outside resources will be important.",Less than one year,21 to 25,Male,Married,North America,No,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Bachelors (or equivalent) degree,Upper-middle income,"Bisexual, Demisexual","A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Very left (or liberal),"No religion (e.g., atheistic, agnostic)",No,"I am a part-time caregiver (e.g., to a parent or a partner)",Associate / Coordinator (2-3),white,White,No,Yes,I appreciate the current push to make our hiring process more inclusive. I hope that continues. I also appreciate how thoughtful RP has been about DEI issues and open to making changes to improve!,NA,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
+3,08/15/22 09:36 AM,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Neutral,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,"Yes, multiple times",Agree,Agree,Strongly agree,Strongly agree,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,Strongly agree,NA,NA,Neutral,"Yes, only if the training was organized by RP",Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,NA,"as a co-CEO, my formal participation would not be appropriate for the goals, but I look forward to continuing to engage with the committee!",NA,Five years to less than ten years,26 to 30,"Cisgender, Female",Married,Europe,No,Yes,Completed a Masters degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),High income,Heterosexual / straight,"A cognitive variation (e.g., autism, ADHD, dyslexia, Tourette’s), A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,"I have a non-human child or children., I am a full-time caregiver (e.g., to a parent or a partner)",Assistant / Fellow / Intern (0-1),Caucasian / Jewish,White,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,08/15/22 10:51 AM,Strongly agree,Neutral,Disagree,Agree,Strongly agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Neutral,Agree,Agree,Strongly agree,Agree,Strongly agree,"Yes, multiple times",Agree,Disagree,Agree,Neutral,Agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,Neutral,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,"- Ensuring the organization is held accountable, especially in hiring and staff experience.","No, I am uninterested in joining (or ineligible to join) for the foreseeable future","My impression is that many JEID training orgs would be a bad fit for EA audiences. I've had many bad experiences related to JEID in EA, but almost none at RP, which seems like a good thing. E.g. <organization name> is well known (though it's never discussed publicly) as a bad place for <marginalized identity> to work, all of the most powerful people in EA are white men, basically no effort is made to diversify EA, rationalist community flirts with fascism/race IQ stuff, etc. RP does a good job at avoiding this generally, but being in EA makes it hard to not see.",Two years to less than five years,NA,Female,Married,North America,No,Yes,Completed a Masters degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Did not finish high school,Middle income,prefer not to say,"A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Very left (or liberal),"No religion (e.g., atheistic, agnostic)",No,I have a non-human child or children.,Board member,Latinx,Hispanic or Latinx/Latine,Yes,Yes,My biggest concern is the lack of women in leadership of RP.,NA,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+5,08/15/22 11:02 AM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,No,Agree,Agree,NA,NA,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Agree,Strongly agree,NA,No,Strongly agree,Agree,Strongly agree,Strongly agree,NA,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,"I think the main goal should be to make sure RP folks are comfortable and supported by our work environment -- which RP has done a pretty good job of, in my experience! I would guess some things that might help are things like aids for jargon or slang commonly used at RP, especially things that ESL speakers might not be familiar with.
+
+I like that one of the questions on this survey mentioned fostering an environment of free expression.","No, I am uninterested in joining (or ineligible to join) for the foreseeable future","At two previous workplaces, I felt as though DEI initiatives were largely used as box-checking or sloganeering exercises rather than actually serving the needs of employees. It's probably important to keep in mind that people will probably underreport their concerns with DEI efforts, especially in public settings, since nobody wants to be the person who seems like they're anti-inclusion (when in fact they're against a particular unproductive policy). I would suggest having anonymous or private feedback channel, and keeping an open mind about how to improve DEI efforts.",Less than one year,NA,Male,Single,NA,No,Yes,Completed a Bachelors (or equivalent) degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Upper-middle income,Heterosexual / straight,"A long-term mental illness (e.g., anxiety, depression, OCD, BPD), A long-term physical illness (e.g., epilepsy, cystic fibrosis)",Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Associate / Coordinator (2-3),White,White,No,Yes,NA,NA,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,NA,NA
+6,08/15/22 01:53 PM,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,NA,Agree,Neutral,Strongly agree,Strongly agree,Strongly agree,"Yes, multiple times",Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Disagree,No,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Exploring broader topics - e.g., how to attract diverse candidates for longtermism positions, or identifying some articles / literature within our cause areas written by various authors (e.g., minority groups, or from different geographic locations etc.). 
+
+I would also like the JEID Committee to be available for staff for equity-related questions and play an advisory role (e.g., if I wanted to organize a cultural workshop - what would be most helpful to focus on, so that it increases the cultural awareness etc.).","No, I am uninterested in joining (or ineligible to join) for the foreseeable future","Yes - I have a fair amount of negative experience related to this type of initiatives. In my previous work experience, we were ""forced"" to participate in a diversity training, which was one of the worst experiences I have ever had. We were forced to share personal information and talk about our feelings in an unsafe environment (there was no enough trust in the organization between people, so how can one share anything personal?), and the format resembled a psychotherapy session, which to me was unacceptable. In addition to that, the content was not tailored for our reality / needs / context and therefore, didn't bring any value. 
+
+I also think that there have been many instances worldwide in which these JEID-type of initiatives have been implemented under false pretenses (for the wrong reasons), or implemented because ""they had to be implemented to show that we are doing something"". I think that such an approach can cause more harm than help, as it can create a lot of negative feelings in participants / recipients of such initiatives. Being mindful of that and keeping people's skepticism in mind might be helpful, as it may show folks that all voices are heard.",One year to less than two years,31 to 35,Female,NA,Europe,NA,NA,Completed a Bachelors (or equivalent) degree,NA,NA,NA,Attracted to men/masculine people,NA,NA,NA,NA,NA,Director / C-Level (8-10),White - European,White,No,Yes,NA,NA,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,NA,NA
+7,08/15/22 02:46 PM,Strongly agree,NA,Agree,Strongly agree,Agree,Strongly agree,Neutral,Strongly agree,NA,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,No,Strongly agree,Neutral,NA,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,NA,Strongly agree,NA,Not sure,Strongly agree,Strongly agree,Agree,Agree,NA,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future","A previous company I worked with had few POCs on staff, and tended to ask them to be in all promotional material - this was a burden for them and felt non-inclusive.
+
+A previous company I worked with allowed people to record themselves saying their name and include this in their employee profile that anyone could look up (in order to get the correct pronunciation). I thought that was a neat idea and helpful.",Less than one year,31 to 35,Female,Committed relationship / domestic partnership (unmarried),Europe,Yes,Yes,NA,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Upper-middle income,Heterosexual / straight,NA,Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),NA,Hispanic or Latinx/Latine,Yes,Yes,The focus on work tests over interviews in hiring is excellent. Leadership / management has been very supportive. Both policies and everyday actions reflect a lot of care for people and flexibility.,Great survey :-),NA,NA,NA,NA,NA,TRUE,TRUE,TRUE,TRUE
+8,08/15/22 05:23 PM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Neutral,NA,Strongly agree,Agree,No,Neutral,Neutral,Neutral,Agree,Agree,Agree,Agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Neutral,Agree,Neutral,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Neutral,Agree,Agree,Agree,Agree,Strongly agree,Agree,Strongly agree,Agree,Strongly agree,"Educating and implementing JEID organization-wide, focusing on intersectionality and neurodiversity","Yes, as an ad hoc subcommittee member to work on specific projects (with a lower monthly time commitment and temporary time frame)","Yes - I've worked for a hiring committee for my university before. As part of the hiring process (for a high-level position), all candidates were required to write a statement on their commitment to diversity, equity, and inclusion and talk about past examples of how they implement it. I am unsure of how ineffective this is, as I see this more of a self-promotion piece than clear examples of a candidate's track record in DEI. This might be something to avoid for interviews, but it is also useful for digging into a candidate's experience with JEID. 
+
+",Less than one year,31 to 35,Male,Single,NA,No,Yes,Completed a Masters degree,Did not finish high school,Did not finish high school,Lower-middle income,"Bisexual, Queer",NA,Moderately left (or liberal),NA,No,NA,Senior Researcher / Manager (6-7),Jewish,NA,Unsure,Yes,"My opinions regarding DEI is as follows:
+
+First, DEI felt like something that appeared into the limelight out of nowhere with the past ten years due to business adopting it, but it shouldn't be treated as such. One of the constant struggles I believe DEI/JEID faces in its reputation is that it feels as if it is something being implemented top-down, even if many people largely agree with the need for it. The difficult part is ensuring that JEID is not just communicated top-down, but it feels as if it is being brought from bottom-up, in a genuine, bona fide manner. Thus, as the JEID committee develops its bylaws, goals, and policies, I believe that it is important to remember this.
+
+Second, part of JEID I believe is not discussed as prominently is power. We believe that power is sanctioned and controlled from a central figure (like a ruler), but according to Michel Foucault, power is actualized, exercised, and experienced in the perimeters and extremities of the system, and we should see power as something that everyone has in varying, unequal degrees (Foucault, ""Power, Right, Truth""). This means that the insight and analysis of power is most important when we look at how, for example, a white working-class person discriminates against a black person, instead of looking at how the US Congress' explicit discriminatory policies subjugates disadvantaged peoples. In other words, discriminatory policies and discrimination in general are not the result of a single person/subjugator/ruler, but the product of a system that subjugates us and that we simultaneously contribute to. So, in creating policies and more generally, culture-building, everyone should feel included in contributing to the organization and feel empowered to exercise their power in an equitable, non-zero-sum game manner while recognizing the stratified nature of power in our society.
+
+In the end, there aren't any solid suggestions that I'm communicating here, but I hope that my opinion can reveal more insight and things to keep in mind as JEID develops its goals.","For the race and ethnicity section of the survey, add an additional comments section so people can elaborate on their identity. For example, I put my racial identifiers, but even I don't fully identify with them.",FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+9,08/16/22 02:09 AM,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,No,NA,Agree,NA,NA,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,NA,Strongly agree,NA,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Hiring, promotions, unconscious biases, etc, as suggested by this survey. A positive approach to queerness and neurodiversity. Perhaps, as well as operational JEID, reflection on JEID in a research sense as a cause area.","Yes, as an ad hoc subcommittee member to work on specific projects (with a lower monthly time commitment and temporary time frame)",NA,Less than one year,21 to 25,"Cisgender, Male",Single,North America,No,Yes,Completed a Bachelors (or equivalent) degree,NA,NA,Lower-middle income,Heterosexual / straight,"A cognitive variation (e.g., autism, ADHD, dyslexia, Tourette’s)",Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",Yes,NA,Senior Researcher / Manager (6-7),None,NA,No,Yes,I'm just really happy to be working for an organisation that puts a lot of thought and care into these important matters!,NA,TRUE,TRUE,FALSE,TRUE,FALSE,NA,NA,TRUE,TRUE
+10,08/16/22 08:59 AM,Strongly agree,Strongly agree,Agree,Strongly agree,Agree,NA,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,Disagree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Yes, once",Agree,Agree,NA,NA,Agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,NA,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,26 to 30,"Cisgender, Female",Committed relationship / domestic partnership (unmarried),North America,No,No,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Bachelors (or equivalent) degree,Middle income,Heterosexual / straight,NA,Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),Latinx,Hispanic or Latinx/Latine,Unsure,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11,08/16/22 10:54 AM,Strongly agree,NA,Neutral,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,NA,Strongly agree,Neutral,Strongly agree,Neutral,NA,NA,NA,Strongly agree,Strongly agree,"Yes, multiple times",NA,Agree,NA,NA,NA,Strongly agree,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Strongly agree,NA,Strongly agree,NA,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,26 to 30,"Female, Nonbinary",Committed relationship / domestic partnership (unmarried),"Oceania (including Australia, New Zealand, and Pacific Islands)",No,Yes,Completed a Masters degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Middle income,"Asexual, Heterosexual / straight","A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Very left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),Mixed race,Hispanic or Latinx/Latine,Yes,Yes,NA,"I think you could distinguish, in the questions, between ""I don't know (because I don't feel I'm the right person to give evidence on this issue)"" and ""I don't know (because of genuine uncertainty about RP's position [/ environment etc] on this)"". Most if not all of my ""I don't know"" answers were of the former type (as a relatively privileged person, I don't think I'm in a good position to pass judgement on whether RP is prejudiced or not - it seems to me that it generally speaking isn't, but it's plausible that if I were in a less privileged position I wouldn't feel that way, so I genuinely don't feel qualified to give evidence on this)",NA,NA,NA,NA,NA,NA,NA,NA,NA
+12,08/16/22 02:07 PM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,No,Agree,Strongly agree,Strongly agree,NA,NA,Agree,Strongly agree,Strongly agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,NA,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Ensuring we are choosing and hiring diverse new employees. Some risk we might be hiring those with similar personality traits/approaches in research habits (which skew male).,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,26 to 30,"Cisgender, Male",Committed relationship / domestic partnership (unmarried),North America,No,No,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed an Associates (or equivalent) degree,Attended college but did not complete a degree,Lower-middle income,"Heterosexual / straight, Questioning",NA,Very left (or liberal),NA,No,I have a non-human child or children.,Researcher / Senior Coordinator (4-5),caucasian,White,No,Yes,NA,NA,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+13,08/17/22 04:19 AM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,No,Agree,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"While I'd like to hope that people at RP will feel comfortable coming forward if they feel like they are experiencing/seeing discrimination/harassment, but the reality is there may be things going on that we're entirely unaware of. I think if the JEID committee was able to somehow capture/anticipate what may be happening without anyone necessarily realizing it, that would be beneficial. For example, bias towards possible candidates, creating events or an environment that make people feel excluded so they don't come, etc. Oftentimes discrimination or exclusion can happen without awareness, and that's often the most underreported/acknowledged. 
+
+I also think offering diversity/cultural training would be beneficial!","Yes, as a committee member, if applications are opened again","My previous organization was very discriminatory in my opinion, and when I voiced my concerns they were completely ignored. It was very clear that they were hiring one specific demographic, and that started to become very uncomfortable. It actually started to become a joke in the office, but I was the only one speaking up about it which was frustrating. Also, we did have one person that was culturally quite different, and it caused a lot of friction and frustration within the company. I feel that if we had recognized the cultural differences the issues that arose eventually could have been avoided.",Less than one year,36 to 40,Male,Married,North America,Yes,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Graduated from high school,Middle income,Heterosexual / straight,NA,Very left (or liberal),"No religion (e.g., atheistic, agnostic), Spiritual but not affiliated",No,I have a non-human child or children.,Associate / Coordinator (2-3),White,White,No,Yes,NA,NA,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,NA
+14,08/17/22 11:22 AM,Agree,Agree,Neutral,Strongly agree,Agree,Neutral,Strongly agree,Strongly agree,Agree,Strongly agree,Neutral,Strongly agree,Neutral,Agree,Agree,Strongly agree,Agree,Agree,"Yes, multiple times",Agree,Neutral,Agree,Neutral,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Disagree,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Agree,Strongly agree,Neutral,Agree,Strongly agree,Agree,Strongly agree,Agree,Agree,Strongly agree,"Multicultural team collaboration, JEID literacy",NA,NA,One year to less than two years,26 to 30,Male,Single,North America,No,No,Completed a Bachelors (or equivalent) degree,Completed a Bachelors (or equivalent) degree,Attended college but did not complete a degree,Upper-middle income,NA,"A cognitive variation (e.g., autism, ADHD, dyslexia, Tourette’s), A mobility impairment (e.g., amputation, arthritis, cerebral palsy, fibromyalgia, paralysis), A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Moderately left (or liberal),Spiritual but not affiliated,No,I have a non-human child or children.,Senior Researcher / Manager (6-7),Taiwanese,Asian,Yes,Yes,NA,NA,FALSE,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+15,08/17/22 01:29 PM,Agree,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Agree,Neutral,Strongly agree,Strongly agree,No,Agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,No,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"How we can reach a more diverse candidate pool. 
+Any areas it seems like we are particularly struggling in. 
+Are there different needs in the different cause areas we are active in.","No, I am uninterested in joining (or ineligible to join) for the foreseeable future",I think this can be a polarizing issue. Though it obviously depends on how it is approached. I would dislike it to being approached in a way that would cause lots of drama. Particularly focusing on underrepresented races (BIPOC) seems like it sometimes does this. Not to say we shouldn't focus on them but a thoughtful approach is warranted.,Less than one year,51 to 55,Male,Separated,North America,No,Yes,Completed a Bachelors (or equivalent) degree,Completed a Masters degree,Graduated from high school,Upper-middle income,Heterosexual / straight,"A cognitive variation (e.g., autism, ADHD, dyslexia, Tourette’s), A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Researcher / Senior Coordinator (4-5),white,White,No,Yes,NA,NA,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,NA,NA
+16,08/17/22 01:56 PM,Strongly agree,Strongly disagree,Neutral,Strongly agree,Strongly agree,Strongly agree,Neutral,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly disagree,Agree,Agree,NA,NA,Strongly agree,"Yes, multiple times",Agree,Disagree,NA,NA,Disagree,Neutral,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,Agree,Agree,NA,Agree,NA,Agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Making the internal hiring processes transparent.
+Looking for best evidence on practices that the org can adopt to make it a safe workplace for all.","Yes, as an ad hoc subcommittee member to work on specific projects (with a lower monthly time commitment and temporary time frame)",NA,Two years to less than five years,26 to 30,"Cisgender, Male",Committed relationship / domestic partnership (unmarried),Europe,Yes,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Completed a Masters degree,Middle income,Heterosexual / straight,NA,Moderately left (or liberal),NA,No,NA,Senior Researcher / Manager (6-7),Mixed,"Asian, White",Yes,Yes,NA,NA,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+17,08/17/22 03:11 PM,Strongly agree,Strongly agree,Neutral,Strongly agree,Neutral,Strongly agree,Neutral,Neutral,Strongly agree,Agree,Agree,Neutral,Neutral,NA,NA,NA,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No,Agree,NA,Agree,Agree,NA,Agree,Agree,Agree,Agree,Agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Two years to less than five years,26 to 30,Female,Single,North America,No,Yes,Completed a Masters degree,Completed a Masters degree,Completed a Bachelors (or equivalent) degree,Middle income,Heterosexual / straight,NA,Slightly left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Associate / Coordinator (2-3),Asian/East Asian/Chinese,Asian,No,Yes,NA,"As a board member, I don't feel qualified to answer many of the earlier questions. I only see one very specific slice of the org.",NA,NA,NA,NA,NA,NA,NA,NA,NA
+18,08/17/22 05:05 PM,Strongly agree,NA,Neutral,NA,NA,NA,Strongly agree,Strongly agree,NA,NA,NA,Strongly agree,NA,Agree,Agree,Agree,Agree,Agree,No,NA,NA,NA,NA,NA,NA,NA,Strongly agree,NA,NA,Agree,Agree,NA,NA,NA,NA,NA,Agree,NA,NA,NA,NA,NA,Strongly agree,NA,NA,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Two years to less than five years,26 to 30,Agender,Single,"Oceania (including Australia, New Zealand, and Pacific Islands)",Yes,Yes,Completed a Masters degree,Completed a Bachelors (or equivalent) degree,NA,Lower-middle income,NA,NA,Very left (or liberal),NA,No,I have a non-human child or children.,Director / C-Level (8-10),NA,NA,NA,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+19,08/17/22 05:13 PM,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,NA,Agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,NA,Strongly agree,Agree,"Yes, once",Agree,NA,NA,NA,NA,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,Agree,Strongly agree,Strongly agree,NA,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Strongly agree,Agree,Agree,Agree,NA,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,"Cultural differences about communication, and communication related matters in general (written or verbal)","Yes, either as committee member or ad hoc subcommittee member depending on the",NA,Less than one year,26 to 30,Female,Single,North America,No,No,Attended college but did not complete a degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Bachelors (or equivalent) degree,Upper-middle income,Heterosexual / straight,NA,Moderately left (or liberal),"Muslim (Sunni, Shiite, Nation of Islam, etc.), Spiritual but not affiliated",No,NA,Board member,White,White,No,Yes,NA,"More options / alternatives could be provided for the question: “Are you interested in joining the JEID committee in the future in any of the following capacities?” Also, what is meant by future could have been more specified e.g. does it mean within the next few months, this year, next year, at some point in the future (e.g. even a few years later?)
+
+More options / detailed alternatives could be provided for the “Where were you born?” question",FALSE,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+20,08/17/22 10:48 PM,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Yes, once",Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,NA,No,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,"I think RP is currently very successful at DEI. I think the committee would do well to solidify those successes and make sure that those values are institutionalized as the organization grows. 
+
+I also think that cause diversity and cause neutrality go hand-in-hand with DEI, and I would like if the JEID committee perhaps tried to pin down that disposition and style communication of respecting different worldviews/backgrounds/priors that makes RP work as a multi-cause EA org and as an employer of diverse people.","No, I am uninterested in joining (or ineligible to join) for the foreseeable future","I've really disliked a lot of the DEI orgs at my previous jobs. In those cases, they seemed either uninterested in communicating with anyone who had a different opinion (even if they agreed that the issue at hand was real and a problem) or they created a lot of bloat with little apparent benefit. Diversity, equity, and inclusion are not the sole province of social justice, but I've never seen a DEI committee that wasn't dominated by social justice/woke ideas, which is alienating to me because I have intellectual disagreements with that philosophy.
+
+I can't imagine anyone I know at RP failing that seriously, but bloat seems like a live possibility.",NA,21 to 25,Male,NA,South America,No,Yes,Completed a Masters degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Bachelors (or equivalent) degree,Middle income,Heterosexual / straight,"A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Libertarian left,"No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),NA,NA,NA,Yes,NA,NA,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,NA,NA
+21,08/18/22 10:44 AM,Agree,Agree,Disagree,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Agree,Agree,Agree,Disagree,Agree,Neutral,Agree,Strongly agree,Agree,No,Agree,Neutral,Agree,NA,Neutral,Agree,Neutral,Agree,Agree,Agree,Strongly agree,Agree,Agree,Strongly agree,Neutral,No,Agree,Agree,Agree,Strongly agree,Agree,Strongly agree,Agree,Strongly agree,Agree,Agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,31 to 35,Female,Married,North America,No,Yes,Completed a Bachelors (or equivalent) degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,High income,Bisexual,NA,Slightly left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Senior Researcher / Manager (6-7),White,White,No,Yes,NA,"Thanks for making this! :)
+
+Re ""Are you a veteran?"" -- I guess this is US terminology, I think I know what it means but to me (from the UK) it sounds kind of odd / ambiguous.",NA,NA,NA,NA,NA,NA,NA,NA,NA
+22,08/18/22 02:53 PM,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,No,NA,NA,Agree,Strongly agree,Strongly agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Not sure,Strongly agree,Strongly agree,Strongly agree,Agree,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,"- Ensuring we're recruiting and hiring the best people from various different backgrounds (e.g. making sure that we're reaching diverse people and making the application process fair/accessible to them).
+- Maintaining a ""good"" culture as RP continues to grow (e.g. one that is respectful, welcoming, and supportive for all employees).",I'm not sure.,NA,Less than one year,26 to 30,Male,Single,Europe,No,Yes,Completed a Masters degree,Completed a Masters degree,Completed an Associates (or equivalent) degree,Middle income,Bisexual,"A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",NA,"Jewish (Judaism), No religion (e.g., atheistic, agnostic)",No,NA,Director / C-Level (8-10),White British,White,No,Yes,NA,NA,TRUE,TRUE,FALSE,TRUE,FALSE,NA,NA,NA,NA
+23,08/22/22 01:13 AM,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Neutral,Neutral,Strongly agree,NA,Strongly agree,Agree,Neutral,Strongly agree,Agree,NA,Strongly agree,Agree,No,NA,Agree,NA,NA,NA,Neutral,Neutral,Agree,Agree,Agree,Strongly agree,Agree,Agree,Strongly agree,NA,Not sure,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,31 to 35,Female,Committed relationship / domestic partnership (unmarried),Europe,Yes,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Upper-middle income,Heterosexual / straight,NA,Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Senior Researcher / Manager (6-7),NA,White,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+24,08/23/22 01:54 PM,Strongly agree,NA,Disagree,Strongly agree,Strongly agree,NA,Agree,Agree,NA,Strongly agree,NA,Strongly agree,Neutral,Agree,NA,NA,Agree,NA,"Yes, once",NA,NA,NA,NA,Disagree,Agree,Agree,Agree,Agree,NA,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly disagree,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Disagree,NA,Agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Running and analyzing this survey; identifying areas of improvement across the whole org; organizing and/or leading workshops and mandatory training; organizing and/or leading optional activities like book clubs or discussion groups; acting as a resource for employees with questions or concerns.,"Yes, as a committee member, if applications are opened again",No,Less than one year,31 to 35,NA,Committed relationship / domestic partnership (unmarried),Europe,No,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Masters degree,Completed a Bachelors (or equivalent) degree,Upper-middle income,Heterosexual / straight,"A mobility impairment (e.g., amputation, arthritis, cerebral palsy, fibromyalgia, paralysis)",Very left (or liberal),Spiritual but not affiliated,No,I have a non-human child or children.,Senior Researcher / Manager (6-7),NA,White,No,Yes,"I think RP's staff and leadership are committed to JEID to varying degrees. I think some managers/leaders may not think that JEID should be integrated into all aspects of our work, and I think that's problematic. I think there is some resistance among staff to doing JEID training, but I hope people will be open to it because I do think we are lacking training in that domain. I believe JEID trainings should be mandatory.","""Non-human child/children"" stood to me as strange wording and I'm not totally sure if was to be interpreted as ""non-human companion(s)."" If so, I'd suggest changing the wording, just because not all companions are young.",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+25,08/26/22 04:06 AM,Agree,Strongly agree,Agree,Agree,Neutral,Strongly agree,Neutral,Neutral,Strongly agree,Agree,NA,Strongly agree,Strongly disagree,Agree,Neutral,NA,Agree,Agree,No,NA,NA,NA,NA,Agree,Agree,Agree,Strongly agree,Agree,NA,Strongly agree,Strongly agree,Agree,Strongly agree,NA,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Agree,Strongly agree,Agree,Agree,Agree,Strongly agree,NA,Strongly agree,Strongly agree,Strongly agree,Keep abreast of the general temperature of RP staff on issues related to JEID. Make ample opportunities for staff to learn about how discrimination can take many shapes and forms and how it can negatively impact a person's performance and sense of belonging at the organization.,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,21 to 25,"Cisgender, Male",Married,Europe,Yes,Yes,Completed a Bachelors (or equivalent) degree,Completed a Masters degree,Completed a Bachelors (or equivalent) degree,Middle income,Heterosexual / straight,Periods of acute anxiety and sometimes more generalized anxiety lasting weeks or months,Moderately left (or liberal),Roman Catholic,No,I have a human child or children.,Associate / Coordinator (2-3),white,White,No,Yes,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+26,08/26/22 07:17 AM,Strongly agree,NA,Neutral,Strongly agree,Agree,NA,Neutral,Agree,NA,Agree,NA,Strongly agree,Agree,Agree,NA,NA,Strongly agree,Strongly agree,No,NA,Disagree,NA,NA,Neutral,Agree,Agree,NA,Agree,Agree,NA,Strongly agree,Agree,Agree,NA,NA,Disagree,Agree,Neutral,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,"Evaluating existing RP policies, hiring","Yes, as a committee member, if applications are opened again",NA,Less than one year,36 to 40,"Cisgender, Female",NA,"Oceania (including Australia, New Zealand, and Pacific Islands)",Yes,Yes,Completed a Bachelors (or equivalent) degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Upper-middle income,Heterosexual / straight,NA,Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Researcher / Senior Coordinator (4-5),Turkish,"Asian, White",No,Yes,"I think the parental leave policy is really generous, and I appreciate that it applies to both pregnancy and adoption (and I imagine there would be some provision for fostering, if needed?) However, it does seem like it doesn't adequately take into account how work is likely to be affected for anyone bearing a child, vs other parents. I think the two things that strike me the most are the following. 1) Our policy says that ""leave can be taken as desired within the first two years of a new child’s life"", which suggests that the leave cannot begin before the child is born/ adopted? It might be beneficial for parents to begin a few weeks beforehand. 2) According to the policy, ""pay and hours for the parental leave will be the average of the pay you received over the two month prior notice period"". If a child bearing parent needs to reduce hours in the late stages of pregnancy - because they simply cannot keep up with a full time job - then it seems that this will impact their earning potential for the period of their leave. In contrast, a non-child-bearing parent would probably be able to continue to work full hours and therefore receive higher pay.
+
+I've been impressed by the commitment to ensuring that those with dependents can attend the team retreat without bearing additional costs.",NA,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,TRUE,TRUE
+27,08/27/22 03:23 PM,Agree,Agree,Disagree,Agree,Agree,Strongly disagree,Disagree,Neutral,NA,Neutral,Neutral,Agree,Strongly disagree,Agree,Strongly agree,NA,Agree,Strongly agree,No,NA,Disagree,NA,NA,Neutral,Agree,Disagree,Agree,Agree,Neutral,Agree,Neutral,Agree,Agree,Neutral,Not sure,Neutral,Agree,Agree,Agree,Agree,Neutral,Agree,Strongly agree,Agree,Agree,NA,"No, I am uninterested in joining (or ineligible to join) for the foreseeable future",I was once required by an immediate supervisor to provide a public statement regarding the rationale of why we did not hire a <marginalized identity> candidate (presumably because I <have the same marginalized identity>) even tho I specifically requested that I not be the one to provide this statement. I found the incident extremely uncomfortable: an explicit tokenism of my membership on the hiring committee being used to support the claim that process was unbiased.,Two years to less than five years,21 to 25,Female,NA,North America,No,Yes,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Attended college but did not complete a degree,Graduated from high school,Lower-middle income,Heterosexual / straight,NA,Moderately left (or liberal),NA,No,I have a non-human child or children.,Board member,"Biracial; Middle Eastern (Arab) & White. If forced to choose only one, I self-identify most as Middle Eastern.","Middle Eastern or North African, White",Yes,Yes,NA,NA,NA,NA,NA,NA,NA,TRUE,TRUE,NA,NA
+28,08/30/22 07:04 AM,Strongly agree,NA,Neutral,Strongly agree,Agree,Agree,Neutral,Strongly agree,NA,Agree,NA,Agree,NA,NA,NA,NA,NA,NA,No,NA,Agree,NA,NA,NA,Agree,Strongly agree,Agree,Agree,NA,NA,Agree,Agree,Neutral,NA,NA,Strongly agree,Strongly agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,Agree,NA,"Increased diversity in hiring, especially gender diversity on the longtermism team. 
+
+Increased diversity in leadership, especially gender diversity.
+
+Maybe: Cultural sensitivity and welcomingness for current employees.
+
+Maybe: Encouraging underrepresented groups to develop professionally (e.g., by taking on more/new areas of responsibility, using their 10% development time and free weeks well)","Yes, as an ad hoc subcommittee member to work on specific projects (with a lower monthly time commitment and temporary time frame)",NA,Less than one year,31 to 35,"Cisgender, Female",Committed relationship / domestic partnership (unmarried),North America,Yes,No,NA,Completed a Masters degree,Completed an Associates (or equivalent) degree,Upper-middle income,Queer,NA,Moderately left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Associate / Coordinator (2-3),Latin American White,"Hispanic or Latinx/Latine, White",No,Yes,NA,"Minor comments only:
+* I feel unsure what ""immigrant"" means and whether or not I should identify as one (I've been a resident in another country than my country of birth for 3+ years, but am currently neither a citizen here nor have permanent residency, nor sure if I intend to get either). 
+* The label ""associate degree"" is confusing to me – maybe it's an American term? Could be worth adding an explanation (e.g., professional/vocation-focused degree of usually 2-3 years).
+* For the parent/caretaker question, maybe have a “no” box so you can see the difference between “no” and “didn’t want to answer”.",TRUE,TRUE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+29,09/01/22 02:14 PM,Strongly agree,Strongly agree,Neutral,Strongly agree,Agree,Strongly agree,Neutral,Agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Agree,Agree,NA,Strongly agree,Strongly agree,No,Agree,Neutral,NA,NA,Agree,Neutral,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,NA,Strongly agree,Neutral,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Neutral,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Disagree,Strongly agree,Strongly agree,NA,"- How to attract more diversity in the hiring process
+- How to get more value from the diversity at RP in terms of performance","No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,31 to 35,"Cisgender, Female",Single,NA,Yes,Yes,Completed a Masters degree,Completed a Masters degree,Completed a Masters degree,Upper-middle income,Pansexual,NA,Slightly left (or liberal),"No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),White,NA,NA,Yes,NA,NA,TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,NA,NA
+30,09/02/22 02:01 PM,Agree,Agree,Neutral,Agree,Agree,Neutral,Disagree,Agree,Agree,Agree,Agree,Strongly agree,Disagree,Agree,Neutral,Agree,Agree,Agree,No,Agree,Agree,Neutral,Neutral,Neutral,Neutral,Agree,Neutral,Neutral,Neutral,Agree,Agree,Strongly agree,Strongly agree,Neutral,"Yes, only if the training was organized by a third party",Neutral,Strongly agree,Strongly agree,Agree,Agree,Agree,Agree,Agree,Agree,Strongly agree,"Diverse hiring, applying JEID to employee handbook/experience","Yes, as an ad hoc subcommittee member to work on specific projects (with a lower monthly time commitment and temporary time frame)","At my prior organization, they created mandatory affinity groups which ended up feeling weird since it was mandated on us. What did work when meeting though I enjoyed that all the groups would read the same paper/resource and come together in the end to share each group's perspective",Less than one year,21 to 25,Cisgender,Married,"Oceania (including Australia, New Zealand, and Pacific Islands)",No,No,Completed a Masters degree,Completed a Bachelors (or equivalent) degree,Did not finish high school,Middle income,Heterosexual / straight,NA,Very left (or liberal),"No religion (e.g., atheistic, agnostic)",No,I have a non-human child or children.,Associate / Coordinator (2-3),White,White,No,Yes,I would have liked to hear more about the JEID's committee's mission and initiatives during onboarding and mentioned more in daily RP interactions (slack channels etc),NA,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+31,09/02/22 03:43 PM,Strongly agree,Strongly disagree,Agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,No,Neutral,Agree,NA,NA,Agree,Agree,Disagree,Agree,Agree,Neutral,Strongly agree,Neutral,Agree,Agree,Neutral,Not sure,Agree,NA,Agree,Agree,Agree,Agree,Neutral,Strongly agree,Strongly agree,Strongly agree,"* I strongly support scouting out talent from low- and middle-income countries and would be interested in seeing work that facilitates or improves that
+* I would like to see an emphasis on diversity, inclusion etc. that is strictly evidence- and science-driven because it seems that there is the potential to do harm (with the best of intentions)
+* I would like to see the JEID committee analyse the promotions process and whether that could be improved","No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,Less than one year,26 to 30,Female,Committed relationship / domestic partnership (unmarried),"Oceania (including Australia, New Zealand, and Pacific Islands)",No,Yes,Completed a Bachelors (or equivalent) degree,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Upper-middle income,Heterosexual / straight,NA,Libertarian left,"Buddhist (Mahayana (Zen/Nichiren/Pure Land)/Vajrayana and Theravada), No religion (e.g., atheistic, agnostic)",No,NA,Assistant / Fellow / Intern (0-1),South Asian,Asian,Unsure,Yes,I’m very satisfied with RP’a algorithmic salary policy,"No, thank you for your work :)",TRUE,FALSE,FALSE,FALSE,FALSE,NA,NA,TRUE,TRUE
+32,09/17/22 08:46 AM,Strongly agree,Strongly agree,Neutral,Strongly agree,Agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Yes, once",Strongly agree,NA,NA,NA,Agree,Strongly agree,Strongly agree,Strongly agree,Neutral,Agree,Agree,Agree,Strongly agree,Strongly agree,Strongly disagree,"Yes, I would be interested in participating in a diversity training (regardless of who the organizer would be)",Strongly agree,Strongly agree,Agree,Strongly agree,Agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,NA,NA,NA,One year to less than two years,41 to 45,Male,Married,"I was born in Europe, but it's misleading because I was a US Citizen born abroad to military parents",No,Yes,Completed a Bachelors (or equivalent) degree,Completed an Associates (or equivalent) degree,Did not finish high school,Low income,Heterosexual / straight,"A cognitive variation (e.g., autism, ADHD, dyslexia, Tourette’s), A long-term mental illness (e.g., anxiety, depression, OCD, BPD)",Moderately left (or liberal),Spiritual but not affiliated,No,I have a non-human child or children.,Assistant / Fellow / Intern (0-1),White / Caucasian / European descent (all fine with me!),White,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33,08/16/22 07:12 AM,Strongly agree,Strongly agree,Neutral,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Yes, once",Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,NA,NA,Strongly agree,Agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,Strongly agree,"Provide resources and trainings, if requested. Make sure the amount of effort spent on JEID (by committee members, leadership, staff) is proportionate to the outcomes we want to see.","No, I am uninterested in joining (or ineligible to join) for the foreseeable future",NA,One year to less than two years,26 to 30,"Cisgender, Male",NA,NA,No,No,Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed a Doctoral or Professional degree (such as a Medical or Law degree),Completed an Associates (or equivalent) degree,High income,"Heterosexual / straight, Questioning",NA,Moderately left (or liberal),"Roman Catholic, practicing Catholic, but without actually holding supernatural beliefs these days",No,NA,Senior Researcher / Manager (6-7),Chinese,Asian,Unsure,Yes,NA,Thanks for doing this!,FALSE,FALSE,TRUE,FALSE,FALSE,NA,NA,NA,NA

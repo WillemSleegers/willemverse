@@ -1,8 +1,6 @@
 # Setup -------------------------------------------------------------------
 
-# Load packages
 library(tidyverse)
-library(scico)
 library(scales)
 
 # brew_colors() -----------------------------------------------------------
@@ -21,6 +19,25 @@ df <- tibble(
 df$outcome_na <- df$outcome
 df$outcome_na[1] <- NA
 x <- filter(df, condition == "control")$outcome
+
+df <- read_csv("./inst/test.csv")
+
+df$y <- as.numeric(factor(df$rp_env_nonracist))
+
+df %>%
+  filter(dem_race_ethnic_categorical == "Hispanic or Latinx/Latine") %>%
+  pull(y) %>%
+  hist(plot = FALSE, breaks = 1)
+
+as.numeric(factor(df$rp_env_nonracist))
+
+ggplot(df, aes(
+  x = dem_race_ethnic_categorical,
+  y = as.numeric(factor(df$rp_env_nonracist))
+)) +
+  geom_vhistogram(alpha = .2, center = TRUE, binwidth = 1) +
+  coord_flip() +
+  theme_minimal()
 
 # geom_vhistogram() --------------------------------------------------------
 

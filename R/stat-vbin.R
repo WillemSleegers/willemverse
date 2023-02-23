@@ -56,10 +56,8 @@ StatVbin <- ggplot2::ggproto(
     # don't need it anymore
     coords$y <- 1
 
-    # Add x coordinate of the group
     coords$x <- data$x[1]
 
-    # Add x coordinate of the group to xmin and xmax
     coords$xmin <- coords$xmin + data$x[1]
     coords$xmax <- coords$xmax + data$x[1]
 
@@ -72,7 +70,6 @@ vbins <- function(x,
                   binwidth = NULL,
                   center = FALSE,
                   scale = 1) {
-  # Determine bins and binwidth
   if (!is.null(bins) && !is.null(binwidth)) {
     warning("Provided both bins and binwidth; using binwidth.")
   }
@@ -87,7 +84,6 @@ vbins <- function(x,
   }
 
   if (!is.null(bins)) {
-    # Number of bins depends on whether the bars are centered or not
     if (!is.null(center)) {
       if (!center) bins <- bins + 1
     }
@@ -95,19 +91,20 @@ vbins <- function(x,
     breaks <- seq(from = min(x), to = max(x), length.out = bins)
   }
 
-  # Determine the binwidth based on the breaks
+
   binwidth <- diff(breaks[1:2])
 
-  # Adjust the breaks if center is TRUE
+  if (is.na(binwidth)) binwidth <- 1
+
   if (center) {
     breaks <- breaks - binwidth / 2
     breaks <- c(breaks, max(breaks) + binwidth)
   }
 
-  # Obtain the histogram values
+  print(breaks)
+
   hist <- hist(x, plot = FALSE, breaks = breaks)
 
-  # Determine coordinates for the histogram bins
   xmin <- 0
   xmax <- hist$counts / max(hist$counts) * (scale / 2)
   ymin <- hist$breaks[-length(hist$breaks)]
