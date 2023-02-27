@@ -75,7 +75,7 @@ GeomVhistogram <- ggplot2::ggproto(
     grid::rectGrob(
       x = coords$xmin,
       y = coords$ymax,
-      width = (coords$xmax - coords$xmin) * .95,
+      width = coords$xmax - coords$xmin,
       height = coords$ymax - coords$ymin,
       default.units = "native",
       just = c("left", "top"),

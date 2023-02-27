@@ -80,7 +80,7 @@ vbins <- function(x,
   }
 
   if (!is.null(binwidth)) {
-    bins <- round(max(x) / binwidth)
+    bins <- round(max(x) / binwidth) - round(min(x) / binwidth) + 1
   }
 
   if (!is.null(bins)) {
@@ -89,19 +89,14 @@ vbins <- function(x,
     }
 
     breaks <- seq(from = min(x), to = max(x), length.out = bins)
+
+    if (is.null(binwidth)) binwidth <- diff(breaks[1:2])
   }
-
-
-  binwidth <- diff(breaks[1:2])
-
-  if (is.na(binwidth)) binwidth <- 1
 
   if (center) {
     breaks <- breaks - binwidth / 2
     breaks <- c(breaks, max(breaks) + binwidth)
   }
-
-  print(breaks)
 
   hist <- hist(x, plot = FALSE, breaks = breaks)
 
