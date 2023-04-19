@@ -21,9 +21,6 @@ PositionBar <- ggplot2::ggproto("PositionBar", ggplot2::Position,
   setup_data = function(self, data, params) {
     data$nudge <- self$nudge
 
-    print(data)
-    print(params)
-
     return(data)
   },
   compute_panel = function(data, params, scales) {
