@@ -84,5 +84,11 @@ ggplot(props, aes(x = item, y = pct, fill = factor(response))) +
   geom_text(
     aes(label = percent(pct, accuracy = 1)),
     position = "likert"
-  ) +
-  coord_flip()
+  )
+
+ggplot(props, aes(x = pct, y = item, fill = factor(response))) +
+  geom_col(position = "likert", width = .5) +
+  geom_text(
+    aes(label = percent(pct, accuracy = 1)),
+    position = "likert"
+  )
