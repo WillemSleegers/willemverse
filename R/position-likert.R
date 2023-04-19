@@ -15,13 +15,12 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
   nudge = 0,
   required_aes = c("x", "y", "fill"),
   setup_params = function(self, data) {
-    list(
-      nudge = self$nudge
-    )
+    list(nudge = self$nudge)
   },
   setup_data = function(self, data, params) {
     data$nudge <- self$nudge
     data <- subset(data, !is.na(fill))
+    data <- data[order(data$fill), ]
 
     return(data)
   },
@@ -35,7 +34,11 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
       y <- data$y[data$x == x]
       fill <- data$fill[data$x == x]
 
-      y_bottom <- y[as.numeric(fill) < mid]
+      if (even) {
+        y_bottom <- y[as.numeric(fill) <= mid]
+      } else {
+        y_bottom <- y[as.numeric(fill) < mid]
+      }
 
       # If there are no responses in the bottom half, set the nudge to 0
       if (length(y_bottom) == 0) {
