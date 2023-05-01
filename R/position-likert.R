@@ -18,10 +18,6 @@ PositionLikert <- ggplot2::ggproto("PositionLikert", ggplot2::Position,
     list(nudge = self$nudge)
   },
   setup_data = function(self, data, params) {
-    print(data)
-    print(class(data$x))
-    print(class(data$y))
-
     data$nudge <- self$nudge
     data <- subset(data, !is.na(fill))
     data <- data[order(data$fill), ]
